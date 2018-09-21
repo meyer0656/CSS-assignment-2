@@ -60,6 +60,7 @@ img {
 
 article {
     display: flex;
+    justify-content: center;
     margin: 0rem;
     padding: 2rem;
 }
@@ -68,8 +69,7 @@ article {
     background: #FFBD82;
     color: #fff;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     flex: 1 1 0;
 
 }
@@ -77,16 +77,14 @@ article {
 #lion {
     background: #FFD5AE;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     flex: 1 1 0;
 }
 
 #tiger {
     background: #B26219;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     flex: 1 1 0;
 }
 
@@ -108,15 +106,13 @@ section {
 }
 
 .text {
-    background: #fff;
     color: #000;
-    padding: 2rem 3rem;
+    padding-left: 2rem;
     line-height: 1.25rem;
     font-size: 1rem;
 }
 
 .text h2 {
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -154,10 +150,10 @@ a:hover {
     color: #82E8FF;
 }
 
-#tiger .photo a {
+#tiger a {
       color: #82E8FF;
 }
 
-#tiger .photo a:hover {
+#tiger a:hover {
       color: #ccc;
 }
